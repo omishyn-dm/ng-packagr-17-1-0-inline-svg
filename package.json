@@ -105,7 +105,7 @@
 		"stylelint-order": "6.0.1",
 		"stylelint-scss": "4.3.0",
 		"ng-bullet": "~1.0.3",
-		"ng-packagr": "17.1.0",
+		"ng-packagr": "17.1.1",
 		"node-watch": "~0.5.2",
 		"prettier": "2.8.1",
 		"rollup": "~2.38.5",
