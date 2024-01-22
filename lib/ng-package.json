@@ -1,0 +1,9 @@
+{
+	"$schema": "../node_modules/ng-packagr/ng-package.schema.json",
+	"dest": "../build",
+	"assets": ["./.eslintrc.json", "./.gitignore"],
+	"lib": {
+		"entryFile": "public-api.ts"
+	},
+	"allowedNonPeerDependencies": ["@ngrx/effects", "@ngrx/store", "d3"]
+}

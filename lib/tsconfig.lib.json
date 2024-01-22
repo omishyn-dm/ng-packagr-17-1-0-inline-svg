@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig.json",
+	"compilerOptions": {
+		"outDir": "./out-tsc/lib",
+		"types": ["node"],
+		"sourceMap": false,
+		"mapRoot": ""
+	},
+	"files": ["public-api.ts"],
+	"include": ["lib/**/*.d.ts"],
+	"exclude": ["lib/test.ts", "**/*.spec.ts"]
+}

@@ -1,0 +1,21 @@
+{
+	"compileOnSave": false,
+	"compilerOptions": {
+		"baseUrl": "../",
+		"declaration": false,
+		"emitDecoratorMetadata": true,
+		"allowSyntheticDefaultImports": true,
+		"experimentalDecorators": true,
+		"lib": ["es2022", "dom"],
+		"mapRoot": "./",
+		"module": "esnext",
+		"moduleResolution": "node",
+		"outDir": "../dist/out-tsc",
+		"sourceMap": true,
+		"target": "es2022",
+		"typeRoots": ["../node_modules/@types"],
+		"paths": {},
+		"strictNullChecks": false,
+		"esModuleInterop": true
+	}
+}
